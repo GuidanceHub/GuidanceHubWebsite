@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidance Hub Van Consult</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Guidance Hub Van Consult</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Empowering Businesses for Success</h1>
+            <p>Optimized solutions for achieving excellence in every business endeavor.</p>
+            <a href="#services" class="btn">Discover Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Guidance Hub Van Consult is committed to empowering individuals and businesses with customized solutions tailored for excellence. Our team of experts delivers strategic guidance, equipping clients with the tools to excel and innovate in competitive markets.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Business Strategy</h3>
+                <p>Develop strategies that drive long-term success and sustainability.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-briefcase"></i>
+                <h3>Financial Consulting</h3>
+                <p>Optimize your financial management and investment decisions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-lightbulb"></i>
+                <h3>Innovation & Growth</h3>
+                <p>Empower your business with tailored growth and innovation solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial">
+            <p>"Guidance Hub Van Consult transformed our approach to business management. Their insights and strategies are invaluable."</p>
+            <h3>- Alex Johnson, CEO of XYZ Corp</h3>
+        </div>
+        <div class="testimonial">
+            <p>"Their team helped us streamline our finances and set realistic growth goals. Truly a game-changer."</p>
+            <h3>- Sarah Lee, CFO of ABC Ltd</h3>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Guidance Hub Van Consult. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
